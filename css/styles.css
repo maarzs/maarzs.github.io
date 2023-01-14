@@ -6333,7 +6333,7 @@ fieldset:disabled .btn {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
@@ -12485,6 +12485,10 @@ header.masthead .masthead-heading {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .portfolio-modal .modal-content h2,
